@@ -1,0 +1,12 @@
+train: /content/drive/MyDrive/yolov8_custom/train
+val: /content/drive/MyDrive/yolov8_custom/valid
+
+nc: 3
+names: ['cone', 'cube', 'cylinder']
+
+roboflow:
+  workspace: dataset-gm6kq
+  project: ai_project-cthze
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataset-gm6kq/ai_project-cthze/dataset/1
